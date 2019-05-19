@@ -1,0 +1,99 @@
+#header-img {
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
+}
+
+header {
+  align-items: center; 
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: hsl(40, 91%, 75%);
+  box-shadow: 3px 0px 10px grey;
+  overflow: scroll;
+}
+
+#header-container {
+  position: fixed;
+  top: 0;
+  display: block;
+  width: 100%;
+
+}
+main {
+  position: relative;
+  top: 75px;
+  z-index: -1;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+#video-container {
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+#form {
+  padding-top: 20px;
+}
+
+#nav-bar {
+}
+
+body {
+  width: 100%;
+  background-color: hsl(40, 91%, 90%);
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  padding: 0px 20px 10px 10px;
+}
+
+* {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#contact-section {
+  text-align: center;
+  padding: 0px 0 300px 0;
+}
+
+#about-section {
+  text-align: center;
+  padding: 0px 0 100px 0;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+#home-section{
+  text-align: center;
+  padding: 0px 0 100px 0;
+}
+
+@media (max-width: 800px){
+  #video{
+    width: 370px; 
+    height: 207px;
+  }
+}
+
